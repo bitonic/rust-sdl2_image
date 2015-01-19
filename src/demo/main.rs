@@ -1,3 +1,4 @@
+#![allow(unstable)]
 #![crate_type = "bin"]
 
 extern crate sdl2;

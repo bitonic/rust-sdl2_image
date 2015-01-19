@@ -1,11 +1,10 @@
-#![feature(macro_rules)]
-
+#![allow(unstable)]
 #![crate_name="sdl2_image"]
 #![crate_type = "lib"]
 
-
 extern crate sdl2;
 extern crate libc;
+#[macro_use] extern crate bitflags;
 
 use libc::{c_int, c_char};
 use std::ptr;
